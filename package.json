@@ -1,0 +1,33 @@
+{
+  "name": "org.esndev.inbox",
+  "version": "1.0.0",
+  "description": "inbox contract project - learning session",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha $(find test -name '*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunajones/inbox.git"
+  },
+  "keywords": [
+    "learning",
+    "contract",
+    "inbox"
+  ],
+  "author": "Elmir Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunajones/inbox/issues"
+  },
+  "homepage": "https://github.com/lunajones/inbox#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.26"
+  }
+}
