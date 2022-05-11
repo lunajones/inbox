@@ -16,6 +16,7 @@ echo vi test/org/esndev/%1/contracts/%1.test.sol
 
 @rem initialize dependencies
 echo npm init
-echo npm install --save solc@0.4.17 mocha ganache-cli web3@1.0.0-beta.26
+echo npm install --save solc@0.4.17 mocha ganache-cli web3@1.0.0-beta.26 @truffle/hdwallet-provider
+
 
 
