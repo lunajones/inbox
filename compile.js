@@ -7,9 +7,6 @@ const solc = require('solc');
 const appPath = path.resolve(__dirname, appContractsDir,appContractsInit);
 const source = fs.readFileSync(appPath, 'utf8')
 
+module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
-module.exports = solc.compile(source, 1);
-console.log(solc.compile(source, 1));
-console.log("COMPILED " + appContractsInit + " SUSCESSFULLY." +
-    " \nNEXT WARNINGS SHOULD BE IGNORED.");
 
